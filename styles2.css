@@ -1,0 +1,18 @@
+main{width: 100%; height: 575%;}
+#about{width: 72%; height: 67vh; padding: 8vh 14vw; background-color: #f3f3f3;}
+.details{width: 100%; height: 8vh; color: #454545; font-size: 2.8vh; text-align: center; font-family: Source_Sans_Pro_Regular; letter-spacing: 0.15em; overflow: hidden;}
+.detatext{width: 100%; height: 16vh; color: #7a7a7c; font-size: 2.35vh; text-align: center; font-family: Source_Sans_Pro_Regular; overflow: hidden;}
+.pimpochki{height: 8vh; width: 100%; display: flex; justify-content: center;}
+.pimpa{display: block; height: 100%; width: 8vh; border-radius: 50%; background-color: #7c808b; cursor: url(./img/cursor.png), default;}
+#mouse{margin-left: 5vh; margin-right: 5vh;}
+.pimpa:hover{background-color: #1ebd9f;}
+.pimpa:active{border: #7a7a7c 1px ridge;}
+#Capa_1{margin: 2vh;}
+#Layer_2{margin: 1.2vh 1.45vh;}
+#Layer_1{margin: 1.2vh;}
+.creativideals{width: 100%; height: 15vh; color: #505050; font-family: Source_Sans_Pro_Regular; font-size: 2.8vh;}
+.creativblog{width: 100%; height: 20vh; display: flex; font-family: Source_Sans_Pro_Regular; color: #7e7e80; line-height: 1.5; overflow: hidden;}
+.creativtext1{width: 45%; height: 100%; font-size: 2.5vh; letter-spacing: 0.05em;}
+.creativtext2{width: 55%; height: 100%; font-size: 2.35vh;}
+.vero{color: #02b27b; font-weight: bolder;}
+.ducimus{color: #414244; font-weight: bolder;}
