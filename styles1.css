@@ -1,4 +1,5 @@
-html, body{width: 100vw; height: 100vh; margin: 0; font-size: 0; cursor: url(./img/cursor.png), default; overflow-x: hidden; scroll-behavior: smooth;}
+html, body{width: 100vw; height: 100vh; margin: 0; font-size: 0; cursor: url(./img/cursor.png), default; overflow-x: hidden; scroll-behavior: smooth; animation-name: ttt; animation-duration: 5s; animation-timing-function: step-end;}
+@keyframes ttt{0%{overflow-y: hidden;} 100%{overflow-y: auto;}}
 @font-face{font-family: Righteous; src:url(./fonts/Righteous/Righteous-Regular.ttf)}
 @font-face{font-family: Source_Sans_Pro_Semibold; src:url(./fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf)}
 @font-face{font-family: Source_Sans_Pro_Regular; src:url(./fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf)}
@@ -17,3 +18,6 @@ header{width: 88%; height: 88%; background-image: linear-gradient(rgba(0, 0, 0, 
 #down{display: block; height: 80%; width: 7.04vh; margin-left: auto; border-radius: 50%; margin-right: auto; opacity: 0.5; cursor: url(./img/cursor.png), default;}
 #down:hover{opacity: 1;}
 #down:active{border: #fbf4ea 1px ridge;}
+#loader{position: fixed; left: 0; top: 0; width: 0; height: 0; animation-name: load, lo; animation-duration: 5s; animation-timing-function: linear; background-image: linear-gradient(45deg, #823e27 0%, #272624 100%); color: #fbf4ea; font-size: 10vh; text-align: center; overflow: hidden;}
+@keyframes load{0%{width: 100vw; height: 100vh; font-size: 10vh;} 80%{width: 100%; height: 100%; font-size: 10vh; font-size: 10vh;} 100%{width: 0; height: 0; font-size: 0;}}
+@keyframes lo{0%{color: #fbf4ea;} 20%{color: cadetblue;} 40%{color: blueviolet;} 60%{color: cadetblue;} 80%{color: #fbf4ea;} 100%{color: #fbf4ea;}}
