@@ -1,4 +1,8 @@
 #ouse{width: 72%; height: 44vh; padding-left: 14vw; padding-right: 14vw; display: flex;}
-.val{height: 100%; width: 13%;}
+.val{height: 100%; width: 13%; display: flex; flex-direction: column; justify-content: space-around; align-items: flex-start;}
+#Layer_11{margin: 1.8vh;}
+#Layer_12{margin: 1.8vh;}
+#Layer_13{margin: 1vh 1.5vh;}
+#Layer_14{margin: 1.2vh;}
 .grade{height: 100%; width: 37%;}
 .dia{height: 100%; width: 50%;}
