@@ -1,6 +1,6 @@
-#featured{width: 100%; height: 24vh; padding-top: 8vh; text-align: center; font-family: Source_Sans_Pro_Regular; overflow: hidden;}
-#featproj{width: 100%; height: 10vh; color: #424347; font-size: 2.8vh; letter-spacing: 0.15em;}
-#feattext{width: 100%; height: 14vh; color: #818183; font-size: 2.35vh;}
+.featured{width: 100%; height: 24vh; padding-top: 8vh; text-align: center; font-family: Source_Sans_Pro_Regular; overflow: hidden;}
+.featproj{width: 100%; height: 10vh; color: #424347; font-size: 2.8vh; letter-spacing: 0.15em;}
+.feattext{width: 100%; height: 14vh; color: #818183; font-size: 2.35vh;}
 #lable{width: 100%; height: 44vh; display: flex;}
 .whiskey{width: 33.3333333333%; height: 24vh; padding-top: 20vh; transition: 1s; color: #fefefe; text-align: center; font-size: 2.8vh; letter-spacing: 0.15em; font-family: Source_Sans_Pro_Regular; background-size: 100% 100%;}
 .whiskey:hover{width: 50%; color: transparent;}
