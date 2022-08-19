@@ -19,5 +19,5 @@ header{width: 88%; height: 88%; background-image: linear-gradient(rgba(0, 0, 0, 
 #down:hover{opacity: 1;}
 #down:active{border: #fbf4ea 1px ridge;}
 #loader{position: fixed; left: 0; top: 0; width: 0; height: 0; animation-name: load, lo; animation-duration: 5s; animation-timing-function: linear; background-image: linear-gradient(45deg, #823e27 0%, #272624 100%); color: #fbf4ea; font-size: 10vh; text-align: center; overflow: hidden;}
-@keyframes load{0%{width: 100vw; height: 100vh; font-size: 10vh;} 80%{width: 100%; height: 100%; font-size: 10vh; font-size: 10vh;} 100%{width: 0; height: 0; font-size: 0;}}
+@keyframes load{0%{width: 100vw; height: 100vh; font-size: 10vh; left: 0; top: 0;} 80%{width: 100%; height: 100%; font-size: 10vh; font-size: 10vh; left: 0; top: 0;} 100%{width: 0; height: 0; font-size: 0; left: 50vw; top: 50vh;}}
 @keyframes lo{0%{color: #fbf4ea;} 20%{color: cadetblue;} 40%{color: blueviolet;} 60%{color: cadetblue;} 80%{color: #fbf4ea;} 100%{color: #fbf4ea;}}
