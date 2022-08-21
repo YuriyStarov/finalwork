@@ -13,7 +13,7 @@
 #nike{width: 100%; height: 15vh; background-size: 100% 100%; background-image: linear-gradient(#1da88bd1 0%, #1da88bd1 100%), url(./img/conver.jpg); position: relative;}
 #mit{height: 4vh; width: 70vw; position: absolute; left: 5vw; top: 5.5vh; font-size: 2.8vh; font-family: Source_Sans_Pro_Regular; text-align: center; color: #fefefe; letter-spacing: 0.05em;}
 .accu{font-weight: bolder;}
-#now{border-radius: 40px; background-color: transparent;  border: #fefefe 1px ridge; height: 3.5vh; width: 9vw; padding-top: 0.5vh; position: absolute; right: 11vw; top: 5.5vh;}
+#now{border-radius: 40px; border: #fefefe 1px ridge; height: 3.5vh; width: 9vw; padding-top: 0.5vh; position: absolute; right: 11vw; top: 5.5vh;}
 #naomi{display: block; width: 100%; height: 100%; text-decoration: none; color: #fefefe; font-size: 2.5vh; font-family: Source_Sans_Pro_Light; cursor: url(./img/cursor.png), default; text-align: center;}
-#now:hover{box-shadow: 1px 1px;}
+#now:hover{box-shadow: 1px 1px #fefefe;}
 #now:active{border: #fefefe 2px ridge;}
