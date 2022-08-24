@@ -1,3 +1,27 @@
 #portfolio{width: 84%; height: 182vh; background-color: #f3f3f3; padding: 0 8vw 8vh 8vw;}
-.portmenu{width: 100%; height: 10vh;}
-.album{width: 100%; height: 112vh;}
+.portmenu{width: 100%; height: 11vh;}
+.album{width: 100%; height: 112vh; display: flex; justify-content: space-between;}
+.listphoto{width: calc(25% - 24px); height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
+.cart{width: 100%; background-size: 100% 100%;}
+.bigsz{height: calc(38% - 21px);}
+.smsz{height: calc(24% - 22px);}
+.bigsmsz{height: calc(34% - 21px);}
+.smbigsz{height: calc(28% - 22px);}
+#photoic1{background-image: url(./img/pouch1.jpg);}
+#photoic2{background-image: url(./img/table2.jpg);}
+#photoic3{background-image: url(./img/bottlebox3.jpg);}
+#photoic4{background-image: url(./img/notebbok4.jpg);}
+#photoic5{background-image: url(./img/bottles5.jpg);}
+#photoic6{background-image: url(./img/writebook6.jpg);}
+#photoic7{background-image: url(./img/fotobranding7.jpg);}
+#photoic8{background-image: url(./img/drawer8.jpg);}
+#photoic9{background-image: url(./img/coffetable9.jpg);}
+#photoic10{background-image: url(./img/garbeo10.jpg);}
+#photoic11{background-image: url(./img/paperbag11.jpg);}
+#photoic12{background-image: url(./img/tablet12.jpg);}
+.startproject{width: 100%; height: 17vh; padding-top: 6vh; margin-top: 4vh; background-size: 100% 100%; background-image: linear-gradient(#1da88be1 0%, #1da88be1 100%), url(./img/fongarbeo.jpg);}
+.promit{height: 4vh; width: 100%; font-size: 2.8vh; margin-bottom: 3vh; font-family: Source_Sans_Pro_Regular; text-align: center; color: #fefefe; letter-spacing: 0.05em;}
+.pronow{border-radius: 40px; border: #fefefe 1px ridge; height: 3.5vh; width: 10vw; padding-top: 0.5vh; margin-right: auto; margin-left: auto;}
+#staroff{display: block; width: 100%; height: 100%; text-decoration: none; color: #fefefe; font-size: 2.5vh; font-family: Source_Sans_Pro_Light; cursor: url(./img/cursor.png), default; text-align: center;}
+.pronow:hover{box-shadow: 1px 1px #fefefe;}
+.pronow:active{border: #fefefe 2px ridge;}
