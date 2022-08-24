@@ -1,6 +1,6 @@
-#portfolio{width: 84%; height: 182vh; background-color: #f3f3f3; padding: 0 8vw 8vh 8vw;}
+#portfolio{width: 84%; height: 203.5vh; background-color: #f3f3f3; padding: 0 8vw 8vh 8vw;}
 .portmenu{width: 100%; height: 11vh;}
-.album{width: 100%; height: 112vh; display: flex; justify-content: space-between;}
+.album{width: 100%; height: 133.5vh; display: flex; justify-content: space-between;}
 .listphoto{width: calc(25% - 24px); height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
 .cart{width: 100%; background-size: 100% 100%;}
 .bigsz{height: calc(38% - 21px);}
@@ -19,6 +19,11 @@
 #photoic10{background-image: url(./img/garbeo10.jpg);}
 #photoic11{background-image: url(./img/paperbag11.jpg);}
 #photoic12{background-image: url(./img/tablet12.jpg);}
+.hovforcart{width: 100%; height: 100%; background-color: #000000be; position: relative;}
+.carttittle{position: absolute; width: 85%; height: 15%; left: 15%; top: 28%;}
+.carttext{position: absolute; width: 85%; height: 30%; left: 15%; top: 43%;}
+.carticon{position: absolute; width: 85%; height: 27%; left: 15%; top: 73%;}
+/*  #4d776d #7b7873 #000000 #9d9d9d */
 .startproject{width: 100%; height: 17vh; padding-top: 6vh; margin-top: 4vh; background-size: 100% 100%; background-image: linear-gradient(#1da88be1 0%, #1da88be1 100%), url(./img/fongarbeo.jpg);}
 .promit{height: 4vh; width: 100%; font-size: 2.8vh; margin-bottom: 3vh; font-family: Source_Sans_Pro_Regular; text-align: center; color: #fefefe; letter-spacing: 0.05em;}
 .pronow{border-radius: 40px; border: #fefefe 1px ridge; height: 3.5vh; width: 10vw; padding-top: 0.5vh; margin-right: auto; margin-left: auto;}
