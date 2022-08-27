@@ -16,33 +16,35 @@
     position: absolute;
     width: 71vw;
     height: 45vh;
+    display: flex;
+    justify-content: space-between;
     opacity: 0;
 }
-.sheff1 {
-    background-color: blue;
+.fotocheff {
+    width: 28%;
+    height: 100%;
 }
-.sheff2 {
-    background-color: coral;
-}
-.sheff3 {
-    background-color: darkkhaki;
+.textaboutcheff {
+    width: 40%;
+    height: 100%;
 }
 .sliders {
     position: absolute;
-    left: 73.7vw;
-    width: 0.3vw;
+    left: 73vw;
+    width: 1vw;
     height: 15vh;
+    cursor: url(./img/slidercursor.png), default;
     opacity: 0;
 }
 .slide1 {
-    background-image: linear-gradient(#2a8e76 0%, #2a8e76 5%, #1aa784 5%, #1aa784 35%, #2a8e76 35%, #2a8e76 40%, transparent 40%, transparent 100%);
+    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 70%, transparent 70%, transparent 100%), linear-gradient(#2a8e76 0%, #2a8e76 5%, #1aa784 5%, #1aa784 35%, #2a8e76 35%, #2a8e76 40%, transparent 40%, transparent 100%);
 }
 .slide2 {
-    background-image: linear-gradient(transparent 0%, transparent 30%, #2a8e76 30%, #2a8e76 35%, #1aa784 35%, #1aa784 65%, #2a8e76 65%, #2a8e76 70%, transparent 70%, transparent 100%);
+    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 70%, transparent 70%, transparent 100%), linear-gradient(transparent 0%, transparent 30%, #2a8e76 30%, #2a8e76 35%, #1aa784 35%, #1aa784 65%, #2a8e76 65%, #2a8e76 70%, transparent 70%, transparent 100%);
     top: 15vh;
    }
 .slide3 {
-    background-image: linear-gradient(transparent 0%, transparent 60%, #2a8e76 60%, #2a8e76 65%, #1aa784 65%, #1aa784 95%, #2a8e76 95%, #2a8e76 100%);
+    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 70%, transparent 70%, transparent 100%), linear-gradient(transparent 0%, transparent 60%, #2a8e76 60%, #2a8e76 65%, #1aa784 65%, #1aa784 95%, #2a8e76 95%, #2a8e76 100%);
     top: 30vh;
     }
 .pointi {
