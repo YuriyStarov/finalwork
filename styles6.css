@@ -1,27 +1,93 @@
 #theteam {
-    width: 72%; 
-    height: 90vh; 
+    width: 74%; 
+    height: 92vh; 
     padding-left: 13vw; 
-    padding-right: 15vw;
+    padding-right: 13vw;
 }
 #vizitka {
     width: 100%; 
-    height: 43vh; 
-    display: flex;
+    height: 60vh; 
+    position: relative;
 }
-#fotonoman {
-    width: 25%; 
-    height: 100%; 
-    background-image: url(./img/team1.jpg); 
-    background-size: 100% 100%;
+.tea {
+    display: none;
 }
-#blognoman {
-    width: 75%; 
-    height: 100%;
+.personal {
+    position: absolute;
+    width: 71vw;
+    height: 45vh;
+    opacity: 0;
 }
-#pointi {
-    width: 100%; 
+.sheff1 {
+    background-color: blue;
+}
+.sheff2 {
+    background-color: coral;
+}
+.sheff3 {
+    background-color: darkkhaki;
+}
+.sliders {
+    position: absolute;
+    left: 73.7vw;
+    width: 0.3vw;
     height: 15vh;
+    opacity: 0;
+}
+.slide1 {
+    background-image: linear-gradient(#2a8e76 0%, #2a8e76 5%, #1aa784 5%, #1aa784 35%, #2a8e76 35%, #2a8e76 40%, transparent 40%, transparent 100%);
+}
+.slide2 {
+    background-image: linear-gradient(transparent 0%, transparent 30%, #2a8e76 30%, #2a8e76 35%, #1aa784 35%, #1aa784 65%, #2a8e76 65%, #2a8e76 70%, transparent 70%, transparent 100%);
+    top: 15vh;
+   }
+.slide3 {
+    background-image: linear-gradient(transparent 0%, transparent 60%, #2a8e76 60%, #2a8e76 65%, #1aa784 65%, #1aa784 95%, #2a8e76 95%, #2a8e76 100%);
+    top: 30vh;
+    }
+.pointi {
+    position: absolute;
+    top: 50vh;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 50%;
+    border: #3ca587 1px ridge;
+}
+.poi1 {
+    left: 35.5vw;
+}
+.poi2 {
+    left: 37vw;
+}
+.poi3 {
+    left: 38.5vw;
+}
+#teams1:checked ~ .poi1 {
+    background-color: #13cca0;
+}
+#teams1:checked ~ label .slide1 {
+    opacity: 1;
+}
+#teams1:checked ~ .sheff1 {
+    opacity: 1;
+}
+#teams2:checked ~ .poi2 {
+    background-color: #13cca0;
+}
+#teams2:checked ~ label .slide2 {
+    opacity: 1;
+}
+#teams2:checked ~ .sheff2 {
+    opacity: 1;
+}
+#teams3:checked ~ .poi3 {
+    background-color: #13cca0;
+}
+#teams3:checked ~ label .slide3 {
+    opacity: 1;
+}
+#teams3:checked ~ .sheff3 {
+    opacity: 1;
 }
 footer {
     width: 100%; 
