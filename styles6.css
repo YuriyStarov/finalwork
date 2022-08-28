@@ -64,25 +64,31 @@
     height: 0.6vh;
     background-image: linear-gradient(90deg, #2a8e76 0%, #2a8e76 80%, transparent 80%, #dddfde 100%);
 }
+.gradpokaz2 {
+    width: 100%;
+    height: 0.6vh;
+    background-image: linear-gradient(90deg, #2a8e76 0%, #2a8e76 65%, transparent 65%, #dddfde 100%);
+}
+.gradpokaz3 {
+    width: 100%;
+    height: 0.6vh;
+    background-image: linear-gradient(90deg, #2a8e76 0%, #2a8e76 75%, transparent 75%, #dddfde 100%);
+}
 .sliders {
     position: absolute;
     left: 73vw;
     width: 1vw;
     height: 15vh;
+    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 70%, transparent 70%, transparent 100%), linear-gradient(transparent 0%, transparent 30%, #2a8e76 30%, #2a8e76 35%, #1aa784 35%, #1aa784 65%, #2a8e76 65%, #2a8e76 70%, transparent 70%, transparent 100%);
     cursor: url(./img/slidercursor.png), default;
     opacity: 0;
 }
-.slide1 {
-    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 70%, transparent 70%, transparent 100%), linear-gradient(#2a8e76 0%, #2a8e76 5%, #1aa784 5%, #1aa784 35%, #2a8e76 35%, #2a8e76 40%, transparent 40%, transparent 100%);
-}
 .slide2 {
-    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 70%, transparent 70%, transparent 100%), linear-gradient(transparent 0%, transparent 30%, #2a8e76 30%, #2a8e76 35%, #1aa784 35%, #1aa784 65%, #2a8e76 65%, #2a8e76 70%, transparent 70%, transparent 100%);
     top: 15vh;
-   }
+}
 .slide3 {
-    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 70%, transparent 70%, transparent 100%), linear-gradient(transparent 0%, transparent 60%, #2a8e76 60%, #2a8e76 65%, #1aa784 65%, #1aa784 95%, #2a8e76 95%, #2a8e76 100%);
     top: 30vh;
-    }
+}
 .pointi {
     position: absolute;
     top: 50vh;
@@ -152,4 +158,35 @@ footer {
 }
 .butcont:active {
     border: #f4f4f4 2px ridge;
+}
+.scrollinglist {
+    display: block;
+    position: fixed;
+    height: 6vh;
+    width: 6vh;
+    right: 4vh;
+    border-radius: 15%;
+    animation-duration: 5s;
+    animation-timing-function: step-end;
+    border: 1px #ffffff ridge;
+    opacity: 0.3;
+}
+#scrollingdown {
+    animation-name: scrolldown;
+    top: 1vh;
+}
+#scrollingup {
+    animation-name: scrollup;
+    top: 93vh;
+}
+.scrollinglist:hover {
+    opacity: 0.6;
+}
+@keyframes scrolldown {
+    0%{top: 110vh;}
+    100%{top: 1vh;}
+}
+@keyframes scrollup {
+    0%{top: 110vh;}
+    100%{top: 93vh;}
 }

@@ -197,8 +197,8 @@
     text-align: center;
 }
 .pronow:hover {
-    box-shadow: 1px 1px #fefefe;
+    box-shadow: 2px 2px #fefefe;
 }
 .pronow:active {
-    border: #fefefe 2px ridge;
+    border: #fefefe 5px ridge;
 }
