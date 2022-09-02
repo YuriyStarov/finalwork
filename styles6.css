@@ -182,11 +182,11 @@ footer {
 .scrollinglist:hover {
     opacity: 0.6;
 }
-@keyframes scrolldown {
+/*@keyframes scrolldown {
     0%{top: 110vh;}
     100%{top: 1vh;}
 }
 @keyframes scrollup {
     0%{top: 110vh;}
     100%{top: 93vh;}
-}
+}*/
