@@ -27,7 +27,7 @@
 }
 .portline {
     width: 3.5vw; 
-    height: 3px; 
+    height: 8px; 
     margin: 2vh auto 0 auto;
 }
 .pomena {
@@ -40,7 +40,7 @@
     justify-content: space-between;
 }
 .listphoto {
-    width: calc(25% - 9px); 
+    width: calc(25% - 18px); 
     height: 100%; 
     display: flex; 
     flex-direction: column; 
@@ -51,16 +51,16 @@
     background-size: 100% 100%;
 }
 .bigsz {
-    height: calc(38% - 8px);
+    height: calc(38% - 16px);
 }
 .smsz {
-    height: calc(24% - 8px);
+    height: calc(24% - 16px);
 }
 .bigsmsz {
-    height: calc(34% - 8px);
+    height: calc(34% - 16px);
 }
 .smbigsz {
-    height: calc(28% - 8px);
+    height: calc(28% - 16px);
 }
 #photoic1 {
     background-image: url(./img/pouch1.jpg);

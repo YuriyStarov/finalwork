@@ -8,14 +8,14 @@
 }
 .featproj {
     width: 100%; 
-    height: 10vh; 
+    height: 8vh; 
     color: #424347; 
     font-size: var(--secondaryfontsize); 
     letter-spacing: 0.15em;
 }
 .feattext {
     width: 100%; 
-    height: 14vh; 
+    height: 16vh; 
     color: #818183; 
     font-size: var(--mainfontsize);
 }
