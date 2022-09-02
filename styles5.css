@@ -13,7 +13,7 @@
 .aboutport {
     width: 7vw; 
     height: 11vh; 
-    font-size: 2.5vh; 
+    font-size: var(--middlefontsize); 
     font-family: Source_Sans_Pro_Regular; 
     color: #2d2d2d; 
     text-align: center;
@@ -115,7 +115,7 @@
     left: 15%; 
     top: 28%; 
     color: #4d776d; 
-    font-size: 2.8vh; 
+    font-size: var(--secondaryfontsize); 
     font-family: Source_Sans_Pro_Regular; 
     letter-spacing: 0.1em; 
     line-height: 100%;
@@ -127,7 +127,7 @@
     left: 15%; 
     top: 43%; 
     color: #b3b2b0; 
-    font-size: 1.8vh; 
+    font-size: 48px; 
     font-family: Source_Sans_Pro_Regular;
 }
 .carticon {
@@ -169,7 +169,7 @@
 .promit {
     height: 4vh; 
     width: 100%; 
-    font-size: 2.8vh; 
+    font-size: var(--secondaryfontsize); 
     margin-bottom: 3vh; 
     font-family: Source_Sans_Pro_Regular; 
     text-align: center; 
@@ -191,7 +191,7 @@
     height: 100%; 
     text-decoration: none; 
     color: #fefefe; 
-    font-size: 2.5vh; 
+    font-size: var(--middlefontsize); 
     font-family: Source_Sans_Pro_Light; 
     cursor: url(./img/cursor.png), default; 
     text-align: center;

@@ -12,7 +12,7 @@ main {
     width: 100%; 
     height: 8vh; 
     color: #454545; 
-    font-size: 2.8vh; 
+    font-size: var(--secondaryfontsize); 
     text-align: center; 
     font-family: Source_Sans_Pro_Regular; 
     letter-spacing: 0.15em; 
@@ -22,7 +22,7 @@ main {
     width: 100%; 
     height: 16vh; 
     color: #7a7a7c; 
-    font-size: 2.35vh; 
+    font-size: var(--mainfontsize); 
     text-align: center; 
     font-family: Source_Sans_Pro_Regular; 
     overflow: hidden;
@@ -65,7 +65,7 @@ main {
     height: 15vh; 
     color: #505050; 
     font-family: Source_Sans_Pro_Regular; 
-    font-size: 2.8vh;
+    font-size: var(--secondaryfontsize);
 }
 .creativblog {
     width: 100%; 
@@ -79,13 +79,13 @@ main {
 .creativtext1 {
     width: 45%; 
     height: 100%; 
-    font-size: 2.5vh; 
+    font-size: var(--middlefontsize); 
     letter-spacing: 0.05em;
 }
 .creativtext2 {
     width: 55%; 
     height: 100%; 
-    font-size: 2.35vh;
+    font-size: var(--mainfontsize);
 }
 .vero {
     color: #02b27b; 
