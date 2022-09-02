@@ -142,7 +142,7 @@
     height: 4vh; 
     width: 4vh; 
     border-radius: 50%; 
-    background-color: #000000aa; 
+    background-color: #00000080; 
     cursor: url(./img/cursor.png), default; 
     margin-right: 3%;
 }
