@@ -12,7 +12,21 @@ html, body {
 }
 /*@keyframes ttt {
     0%{overflow-y: hidden;} 
-    100%{overflow-y: auto;}*/
+    100%{overflow-y: auto;}
+}*/
+::-webkit-scrollbar {
+    background-image: url(./img/track.jpg);
+    background-size: 100% 100%;
+    width: 80px;
+    }
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#1da88b80 0%, #1da88b80 100%), url(./img/thumb.jpg);
+    height: 20%;
+    border-radius: 30%;
+}
+::selection {
+    background-color: burlywood;
+    color: black;
 }
 @font-face {
     font-family: Righteous; src:url(./fonts/Righteous/Righteous-Regular.ttf)
