@@ -108,6 +108,12 @@
                      radial-gradient(#f3f3f3 0%, #f3f3f3 67%, transparent 67%, transparent 70%, #f3f3f3 70%, #f3f3f3 100%), 
                      conic-gradient(#1b7a7c 0%, #1b7a7c 40%, transparent 40%, transparent 100%);
 }
+.cifra {
+    display: block;
+    width: 100%;
+    height: 3vw;
+    padding-top: 4vw;
+}
 .meja {
     width: 100%; 
     height: 0.5vh; 
