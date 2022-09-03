@@ -2,11 +2,10 @@
     background-color: #f3f3f3;
 }
 #ouse {
-    width: 78%; 
+    width: 89%; 
     height: 44vh; 
     padding-left: 11vw; 
-    padding-bottom: 8vh; 
-    padding-right: 11vw; 
+    padding-bottom: 8vh;  
     display: flex; 
     background-color: #f3f3f3; 
     font-family: Source_Sans_Pro_Regular;
@@ -63,9 +62,8 @@
 .dia {
     height: 100%; 
     width: 50%; 
-    color: #8e8e90;
 }
-.diafle {
+/*.diafle {
     display: flex; 
     width: 100%; 
     text-align: center;
@@ -113,7 +111,7 @@
     width: 100%;
     height: 3vw;
     padding-top: 4vw;
-}
+}*/
 .meja {
     width: 100%; 
     height: 0.5vh; 
