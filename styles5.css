@@ -27,7 +27,7 @@
 }
 .portline {
     width: 3.5vw; 
-    height: 8px; 
+    height: 3px; 
     margin: 2vh auto 0 auto;
 }
 .pomena {
@@ -40,7 +40,7 @@
     justify-content: space-between;
 }
 .listphoto {
-    width: calc(25% - 18px); 
+    width: calc(25% - 9px); 
     height: 100%; 
     display: flex; 
     flex-direction: column; 
@@ -51,16 +51,16 @@
     background-size: 100% 100%;
 }
 .bigsz {
-    height: calc(38% - 16px);
+    height: calc(38% - 8px);
 }
 .smsz {
-    height: calc(24% - 16px);
+    height: calc(24% - 8px);
 }
 .bigsmsz {
-    height: calc(34% - 16px);
+    height: calc(34% - 8px);
 }
 .smbigsz {
-    height: calc(28% - 16px);
+    height: calc(28% - 8px);
 }
 #photoic1 {
     background-image: url(./img/pouch1.jpg);
@@ -127,7 +127,7 @@
     left: 15%; 
     top: 43%; 
     color: #b3b2b0; 
-    font-size: 48px; 
+    font-size: 12px; 
     font-family: Source_Sans_Pro_Regular;
 }
 .carticon {
@@ -177,7 +177,7 @@
     letter-spacing: 0.05em;
 }
 .pronow {
-    border-radius: 40px; 
+    border-radius: 20px; 
     border: #fefefe 1px ridge; 
     height: 3.5vh; 
     width: 10vw; 
@@ -191,7 +191,7 @@
     height: 100%; 
     text-decoration: none; 
     color: #fefefe; 
-    font-size: var(--middlefontsize); 
+    font-size: var(--mainfontsize); 
     font-family: Source_Sans_Pro_Light; 
     cursor: url(./img/cursor.png), default; 
     text-align: center;

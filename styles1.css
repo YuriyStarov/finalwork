@@ -2,16 +2,16 @@ html, body {
     width: 100vw; 
     height: 100vh; 
     margin: 0; 
-    font-size: 0; 
+    font-size: 0;
     cursor: url(./img/cursor.png), default; 
     overflow-x: hidden; 
     scroll-behavior: smooth; 
     animation-name: ttt; 
     animation-duration: 5s; 
     animation-timing-function: step-end;
-    --mainfontsize: 60px;
-    --secondaryfontsize: 70px;
-    --middlefontsize: 65px;
+    --mainfontsize: 16px;
+    --secondaryfontsize: 18px;
+    --middlefontsize: 20px;
 }
 /*@keyframes ttt {
     0%{overflow-y: hidden;} 
@@ -20,7 +20,7 @@ html, body {
 ::-webkit-scrollbar {
     background-image: url(./img/track.jpg);
     background-size: 100% 100%;
-    width: 80px;
+    width: 20px;
     }
 ::-webkit-scrollbar-thumb {
     background-image: linear-gradient(#1da88b80 0%, #1da88b80 100%), url(./img/thumb.jpg);
@@ -59,7 +59,7 @@ header {
 .bouncy {
     width: 50%; 
     height: 100%; 
-    font-size: 80px; 
+    font-size: 24px; 
     font-family: Righteous; 
     letter-spacing: 0.15em;
 }
@@ -94,7 +94,7 @@ header {
     width: 100%; 
     height: 9vh; 
     padding-top: 26.2vh;
-    font-size: 90px; 
+    font-size: 28px; 
     font-family: Source_Sans_Pro_Light; 
     letter-spacing: 0.25em; 
     text-align: center; 
@@ -139,13 +139,13 @@ header {
     animation-timing-function: linear; 
     background-image: linear-gradient(45deg, #823e27 0%, #272624 100%); 
     color: #fbf4ea; 
-    font-size: 200px; 
+    font-size: 50px; 
     text-align: center; 
     overflow: hidden;
 }
 /*@keyframes load {
-    0%{width: 100vw; height: 100vh; font-size: 200px; left: 0; top: 0;} 
-    80%{width: 100%; height: 100%; font-size: 200px; font-size: 10vh; left: 0; top: 0;} 
+    0%{width: 100vw; height: 100vh; font-size: 50px; left: 0; top: 0;} 
+    80%{width: 100%; height: 100%; font-size: 50px; font-size: 10vh; left: 0; top: 0;} 
     100%{width: 0; height: 0; font-size: 0; left: 50vw; top: 50vh;}
 }
 @keyframes lo {
