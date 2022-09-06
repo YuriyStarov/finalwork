@@ -1,0 +1,38 @@
+@media (max-width: 1250px) {
+    #about {
+        width: 84%;  
+        padding: 8vh 8vw; 
+    }
+    #ouse {
+        width: 92%; 
+        padding-left: 8vw; 
+    }
+} 
+@media (max-width: 1098px) {
+    #about {
+        width: 88%;  
+        padding: 8vh 6vw; 
+    }
+    #ouse {
+        width: 94%; 
+        padding-left: 6vw; 
+    }
+    .val {
+        width: 7%; 
+    }
+    .grade {
+        width: 50%;
+    }
+    .dia {
+        width: 43%; 
+    }
+    .fotocheff {
+        width: 30%;
+    }
+    .aboutport {
+        width: 8.5vw; 
+    }
+}
+@media (max-width: 993px) {
+    
+} 
