@@ -73,5 +73,84 @@
     }
 } 
 @media (max-width: 870px) {
-    
+    .bouncy {
+        width: 33%; 
+    }
+    .menuall {
+        width: 67%; 
+    }
+    #about {
+        flex-direction: row;
+        }
+    .detatext {
+        height: 11vh; ;
+    }
+    .pimpochki {
+        height: 48vh; 
+        width: 8vmin;
+        flex-direction: column; 
+    }
+    #mouse {
+        margin: 5vmin 0;
+    }
+    .creativblog {
+        width: calc(100% - 30vmin); 
+        height: 48vh; 
+        padding-left: 22vmin;
+    }
+    .creativideals {
+        height: 10vh; 
+    }
+    .creativtext1 {
+        width: 100%; 
+    }
+    .creativtext2 {
+        width: 100%; 
+    }
+    .featured {
+        height: 20vh; 
+    }
+    .featproj {
+        height: 8vh; 
+    }
+    .feattext {
+        height: 12vh; 
+    }
+    .whiskey:hover {
+        width: 60%; 
+        color: transparent;
+    }
+    .now {
+        width: 11vw;  
+        right: 13vw; 
+    }
+    #ouse {
+        flex-wrap: wrap;
+    }
+    .val {
+        height: 80%;
+    }
+    .grade {
+        width: calc(90% - 10vw);
+        height: 80%;
+        padding-left: 10vw; 
+    }
+    .dia {
+        width: 100%;
+        height: 20%;
+    }
+    .aboutport {
+        width: 9.5vw; 
+    }
+    #theteam {
+        width: 84%; 
+        padding-left: 8vw; 
+        padding-right: 8vw;
+    }
+    .personal {
+        width: 81vw;
+    }
+    .sliders {
+        left: 83.5vw;
+    }
 } 

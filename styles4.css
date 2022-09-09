@@ -59,8 +59,15 @@
     color: #02b27b;
 }
 .dia {
-    height: 100%; 
-    width: 45%; 
+    height: 34vh; 
+    width: 48vw; 
+    display: flex;
+    padding-top: 10vh;
+    padding-right: 2.05vw;
+}
+.dia_up {
+    height: 100%;
+    width: 33.3333333%;
 }
 .meja {
     width: 100%; 
