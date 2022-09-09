@@ -60,14 +60,14 @@
 }
 .dia {
     height: 34vh; 
-    width: 48vw; 
+    width: 40.05vw; 
     display: flex;
+    justify-content: space-evenly;
     padding-top: 10vh;
-    padding-right: 2.05vw;
 }
 .dia_up {
     height: 100%;
-    width: 33.3333333%;
+    width: 27%;
 }
 .meja {
     width: 100%; 
