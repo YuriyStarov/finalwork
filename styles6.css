@@ -162,8 +162,8 @@ footer {
 .scrollinglist {
     display: block;
     position: fixed;
-    height: 6vh;
-    width: 6vh;
+    height: 4vh;
+    width: 4vh;
     right: 4vh;
     border-radius: 15%;
     animation-duration: 5s;
@@ -177,7 +177,7 @@ footer {
 }
 #scrollingup {
     animation-name: scrollup;
-    top: 93vh;
+    top: 95vh;
 }
 .scrollinglist:hover {
     opacity: 0.6;
@@ -188,5 +188,5 @@ footer {
 }
 @keyframes scrollup {
     0%{top: 110vh;}
-    100%{top: 93vh;}
+    100%{top: 95vh;}
 }*/

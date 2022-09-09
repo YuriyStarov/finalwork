@@ -28,22 +28,22 @@ main {
     overflow: hidden;
 }
 .pimpochki {
-    height: 8vh; 
+    height: 8vmin; 
     width: 100%; 
     display: flex; 
     justify-content: center;
 }
 .pimpa {
     display: block; 
-    height: 8vh; 
-    width: 8vh; 
+    height: 8vmin; 
+    width: 8vmin; 
     border-radius: 50%; 
     background-color: #7c808b; 
     cursor: url(./img/cursor.png), default;
 }
 #mouse {
-    margin-left: 5vh; 
-    margin-right: 5vh;
+    margin-left: 5vmin; 
+    margin-right: 5vmin;
 }
 .pimpa:hover {
     background-color: #1ebd9f;
@@ -52,13 +52,13 @@ main {
     border: #7a7a7c 1px ridge;
 }
 #Capa_1 {
-    margin: 2vh;
+    margin: 2vmin;
 }
 #Layer_2 {
-    margin: 1.2vh 1.45vh;
+    margin-top: 1vmin;
 }
 #Layer_1 {
-    margin: 1.2vh;
+    margin: 1.2vmin;
 }
 .creativideals {
     width: 100%; 

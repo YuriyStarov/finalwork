@@ -19,16 +19,16 @@
     align-items: flex-start;
 }
 #Layer_11 {
-    margin: 1.8vh;
+    margin: 1.8vmin;
 }
 #Layer_12 {
-    margin: 1.8vh;
+    margin: 1.8vmin;
 }
 #Layer_13 {
-    margin: 1vh 1.5vh;
+    margin: 1vmin 1.5vmin;
 }
 #Layer_14 {
-    margin: 1.2vh;
+    margin: 1.2vmin;
 }
 .grade {
     height: 100%; 
@@ -62,55 +62,6 @@
     height: 100%; 
     width: 45%; 
 }
-/*.diafle {
-    display: flex; 
-    width: 100%; 
-    text-align: center;
-}
-.kru {
-    height: 65%; 
-    align-items: flex-end; 
-    justify-content: space-between; 
-    font-size: 28px;
-}
-.proc {
-    font-size: var(--middlefontsize);
-}
-.nad {
-    height: 35%; 
-    font-size: var(--middlefontsize); 
-    align-items: center; 
-    justify-content: space-around;
-}
-.diagr {
-    height: 11vw; 
-    width: 11vw; 
-    border-radius: 50%;
-}
-#eig {
-    background-image: radial-gradient(#f3f3f3 0%, #f3f3f3 66%, transparent 66%, transparent 100%),
-                    conic-gradient(transparent 0%, transparent 20%, #00ae7f 20%, #00ae7f 100%), 
-                    radial-gradient(#f3f3f3 0%, #f3f3f3 67%, transparent 67%, transparent 70%, #f3f3f3 70%, #f3f3f3 100%), 
-                    conic-gradient(#1b7a7c 0%, #1b7a7c 20%, transparent 20%, transparent 100%);
-}
-#sev {
-    background-image: radial-gradient(#f3f3f3 0%, #f3f3f3 66%, transparent 66%, transparent 100%), 
-                    conic-gradient(transparent 0%, transparent 25%, #00ae7f 25%, #00ae7f 100%), 
-                    radial-gradient(#f3f3f3 0%, #f3f3f3 67%, transparent 67%, transparent 70%, #f3f3f3 70%, #f3f3f3 100%), 
-                    conic-gradient(#1b7a7c 0%, #1b7a7c 25%, transparent 25%, transparent 100%);
-}
-#sik {
-    background-image: radial-gradient(#f3f3f3 0%, #f3f3f3 66%, transparent 66%, transparent 100%), 
-                     conic-gradient(transparent 0%, transparent 40%, #00ae7f 40%, #00ae7f 100%), 
-                     radial-gradient(#f3f3f3 0%, #f3f3f3 67%, transparent 67%, transparent 70%, #f3f3f3 70%, #f3f3f3 100%), 
-                     conic-gradient(#1b7a7c 0%, #1b7a7c 40%, transparent 40%, transparent 100%);
-}
-.cifra {
-    display: block;
-    width: 100%;
-    height: 3vw;
-    padding-top: 4vw;
-}*/
 .meja {
     width: 100%; 
     height: 0.5vh; 
