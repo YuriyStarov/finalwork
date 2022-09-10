@@ -1,6 +1,9 @@
 main {
     width: 100%; 
     height: 562vh;
+    animation-name: mainik;
+    animation-duration: 5s;
+    animation-timing-function: step-end;
 }
 #about {
     width: 78%; 
@@ -98,4 +101,8 @@ main {
 .ducimus {
     color: #414244; 
     font-weight: bolder;
+}
+@keyframes mainik {
+    0%{display: none;}
+    100%{display: block;}
 }

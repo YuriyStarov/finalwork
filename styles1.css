@@ -13,10 +13,10 @@ html, body {
     --secondaryfontsize: 18px;
     --middlefontsize: 20px;
 }
-/*@keyframes ttt {
+@keyframes ttt {
     0%{overflow-y: hidden;} 
     100%{overflow-y: auto;}
-}*/
+}
 ::-webkit-scrollbar {
     background-image: url(./img/track.jpg);
     background-size: 100% 100%;
@@ -134,25 +134,29 @@ header {
     top: 0; 
     width: 0; 
     height: 0; 
-    animation-name: load, lo; 
+    animation-name: load; 
     animation-duration: 5s; 
     animation-timing-function: linear; 
     background-image: linear-gradient(45deg, #823e27 0%, #272624 100%); 
-    color: #fbf4ea; 
-    font-size: 50px; 
-    text-align: center; 
     overflow: hidden;
 }
-/*@keyframes load {
-    0%{width: 100vw; height: 100vh; font-size: 50px; left: 0; top: 0;} 
-    80%{width: 100%; height: 100%; font-size: 50px; font-size: 10vh; left: 0; top: 0;} 
-    100%{width: 0; height: 0; font-size: 0; left: 50vw; top: 50vh;}
+#clock1 {
+    position: fixed;
+    width: 0;
+    height: 0;
+    top: 35vh;
+    left: calc(50vw - 15vh);
+    animation-name: loadclock; 
+    animation-duration: 5s; 
+    animation-timing-function: linear;
 }
-@keyframes lo {
-    0%{color: #fbf4ea;} 
-    20%{color: cadetblue;} 
-    40%{color: blueviolet;} 
-    60%{color: cadetblue;} 
-    80%{color: #fbf4ea;} 
-    100%{color: #fbf4ea;}
-}*/
+@keyframes load {
+    0%{width: 100vw; height: 100vh; left: 0; top: 0;} 
+    80%{width: 100%; height: 100%; left: 0; top: 0;} 
+    100%{width: 0; height: 0; left: 50vw; top: 50vh;}
+}
+@keyframes loadclock {
+    0%{width: 30vh; height: 30vh; left: calc(50vw - 15vh); top: 35vh;} 
+    80%{width: 30vh; height: 30vh; left: calc(50vw - 15vh); top: 35vh;} 
+    100%{width: 0; height: 0; left: 50vw; top: 50vh;}
+}

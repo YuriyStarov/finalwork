@@ -43,7 +43,24 @@
         </a>
     </div>
  </header>
- <div id="loader"><br>Relax, everything will be fine...<br><br><br> <img src="./img/load.gif" alt="loading" width="6%" height="8%"> </div>
+ <div id="loader">
+     <svg id="clock1" viewBox="0 0 100 104">
+        <path id="click" fill="none" stroke="#f3f3f3" stroke-width="3px" stroke-dasharray="190 17" stroke-dashoffset="190" 
+        d="
+        M 45,52
+        C -108,-13 208,-13 55,52
+        M 45,52
+        C -108,117 208,117 55,52
+        " />
+        <animate 
+        href="#click"
+        dur="1s"
+        repeatCount="indefinite"
+        attributeName="stroke-dashoffset"
+        values="0;190"
+        />
+   </svg> 
+</div>
  <main>
     <section id="about">
         <section class="details">DETAILS ABOUT BOUNCY</section>
