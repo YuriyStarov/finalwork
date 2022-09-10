@@ -120,9 +120,13 @@
         width: 60%; 
         color: transparent;
     }
+    .mit {
+        font-size: var(--mainfontsize);
+    }
     .now {
         width: 11vw;  
-        right: 13vw; 
+        right: 8vw; 
+        top: 5vh;
     }
     #ouse {
         flex-wrap: wrap;
@@ -154,10 +158,16 @@
         width: 50%;
     }
     .aboutport {
-        width: 9.5vw; 
+        width: 10vw; 
     }
     .carttext {
         font-size: 9px; 
+    }
+    .promit {
+        font-size: var(--mainfontsize); 
+    }
+    .pronow {
+        width: 12vw; 
     }
     #theteam {
         width: 84%; 
@@ -167,7 +177,75 @@
     .personal {
         width: 81vw;
     }
+    .fotocheff {
+        width: 35%;
+    }
     .sliders {
         left: 83.5vw;
     }
-} 
+    .textcont {
+        font-size: var(--secondaryfontsize);
+    }
+    .butcont {
+        width: 12vw; 
+    }
+}
+@media (max-width: 710px) {
+    header {
+        width: 94%; 
+        padding: 6vh 3vw;
+    }
+    .bouncy {
+        width: 23%; 
+    }
+    .menuall {
+        width: 77%; 
+    }
+    .creativblog {
+        width: calc(100% - 12vmin); 
+        padding-left: 4vmin;
+    }
+    .whiskey:hover {
+        width: 70%; 
+        color: transparent;
+    }
+    .mit {
+        width: 90vw;
+        left: 5vw;
+        top: 3vh;
+    }
+    .now {
+        width: 14vw;  
+        right: 43vw; 
+        top: 7.5vh;
+    }
+    #portfolio {
+        width: 92%; 
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .aboutport {
+        width: 12vw; 
+    }
+    .carttext {
+        font-size: 8px; 
+    }
+    .pronow {
+        width: 14vw; 
+    }
+    #theteam {
+        width: 94%; 
+        padding-left: 3vw; 
+        padding-right: 3vw;
+    }
+    .fotocheff {
+        width: 38%;
+    }
+    .textaboutcheff {
+        width: 62%;
+        font-size: 11px;
+    }
+}
+@media (max-width: 580px) {
+    
+}
