@@ -79,6 +79,9 @@
     .menuall {
         width: 67%; 
     }
+    main {
+        height: 575vh;
+    }
     #about {
         flex-direction: row;
         }
@@ -129,8 +132,9 @@
         top: 5vh;
     }
     #ouse {
+        height: 57vh;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
     }
     .val {
         width: 80%;
@@ -144,13 +148,14 @@
     .grade {
         width: 80%;
         height: 80%;
+        padding-top: 3vh;
     }
     .grds {
         font-size: 22px;
     }
     .dia {
         width: 20%;
-        height: 100%;
+        height: 80%;
         flex-direction: column;
         padding: 0;
     }

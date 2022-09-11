@@ -51,4 +51,192 @@
     .slogan {
         padding-top: 5vh;
     }
+    main {
+        height: 702vh;
+    }
+    #about {
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        height: 76vh;
+    }
+    .pimpochki {
+        height: 7vh; 
+        width: 100%;
+        flex-direction: row; 
+    }
+    .pimpa {
+        margin-right: 0;
+        width: 7vmax;
+        height: 7vmax;
+    }
+    #mouse {
+        margin: 0 5vw;
+    }
+    #Capa_1 {
+        margin: 2vmax;
+        width: 3.4vmax;
+        height: 3.4vmax;
+    }
+    #Layer_2 {
+        margin: 1vmax;
+        width: 5vmax;
+        height: 5vmax;
+    }
+    #Layer_1 {
+        margin: 1vmax;
+        width: 5vmax;
+        height: 5vmax;
+    }
+    .creativblog {
+        width: 100%; 
+        padding-left: 0;
+        height: 50vh;
+    }
+    .whiskey {
+        font-size: var(--mainfontsize);
+    }
+    .whiskey:hover {
+        width: 100%; 
+        color: transparent;
+    }
+    #nike {
+        height: 18vh;
+    }
+    .now {
+        width: 18vw;
+        right: 38vw;
+        top: 10vh;
+    }
+    #ouse {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 72vh;
+    }
+    .val {
+        justify-content: space-around;
+    }
+    #Layer_11 {
+        margin: 1.8vmax;
+        width: 3.4vmax;
+        height: 3.4vmax;
+    }
+    #Layer_12 {
+        margin: 1.8vmax;
+        width: 3.6vmax;
+        height: 3.6vmax;
+    }
+    #Layer_13 {
+        margin: 1vmax 1.5vmax;
+        width: 4vmax;
+        height: 4vmax;
+    }
+    #Layer_14 {
+        margin: 1.2vmax;
+        width: 5vmax;
+        height: 5vmax;
+    }
+    .grade {
+        width: 100%;
+    }
+    .dia {
+        width: 100%;
+        height: 15vh;
+        flex-direction: row;
+        padding: 0;
+    }
+    #portfolio {
+        height: 281.5vh;
+    }
+    .aboutport {
+        font-size: var(--mainfontsize);
+    }
+    .album {
+        width: 100%; 
+        height: 211.5vh;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .listphoto {
+        width: calc(50% - 6px); 
+        height: calc(50% - 12px); 
+        flex-direction: column; 
+        justify-content: space-between;
+    }
+    .cart {
+        width: 100%; 
+        background-size: 100% 100%;
+    }
+    .bigsz {
+        height: calc(38% - 8px);
+    }
+    .smsz {
+        height: calc(24% - 8px);
+    }
+    .bigsmsz {
+        height: calc(34% - 8px);
+    }
+    .smbigsz {
+        height: calc(28% - 8px);
+    }
+    .pronow {
+        width: 18vw;
+    }
+    #theteam {
+        height: 122vh;
+    }
+    #vizitka {
+        height: 90vh;
+    }
+    .personal {
+        flex-direction: column;
+        height: 75vh;
+        align-items: center
+    }
+    .fotocheff {
+        height: 40%;
+    }
+    .textaboutcheff {
+        height: 60%;
+        width: 100%;
+    }
+    .wordsforcheff {
+        text-align: center;
+    }
+    .pokaz {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sliders {
+        left: 75vw;
+        width: 3vw;
+        height: 25vh;
+    }
+    .slide1 {
+        top: 0vh;
+    }
+    .slide2 {
+        top: 25vh;
+    }
+    .slide3 {
+        top: 50vh;
+    }
+    .pointi {
+        top: 82vh;
+    }
+    .poi1 {
+        left: 38vw;
+    }
+    .poi2 {
+        left: 43vw;
+    }
+    .poi3 {
+        left: 48vw;
+    }
+    .butcont {
+        width: 18vw;
+    }
+}
+@media (max-width: 505px) {
+
 }
