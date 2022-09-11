@@ -239,13 +239,10 @@
         padding-right: 3vw;
     }
     .fotocheff {
-        width: 38%;
+        width: 42%;
     }
     .textaboutcheff {
-        width: 62%;
+        width: 58%;
         font-size: 11px;
     }
-}
-@media (max-width: 580px) {
-    
 }

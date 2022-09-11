@@ -1,0 +1,54 @@
+@media (max-width: 580px) {
+    header {
+        width: 88%;
+        padding: 6vh 6vw;
+    }
+    #menu {
+        height: 25vh;
+        justify-content: space-around;
+    }
+    .bouncy {
+        width: 50%;
+        height: 25vh;
+        line-height: 0.9em;
+    }
+    .menuall {
+        width: 15%;
+        height: 3.75vh;
+        flex-direction: column;
+    }
+    #chees {
+        display: block;
+        font-size: var(--middlefontsize);
+        color: #fbf4ea;
+        text-align: center;
+        width: 80%;
+        height: 3.75vh;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Righteous;
+    }
+    .menushka {
+        display: none;
+        width: 100%;
+        height: 12.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mena {
+        font-size: 12px;
+    }
+    .menuall:hover {
+        height: 30vh;
+    }
+    .menuall:hover #chees {
+        color: moccasin;
+        text-decoration: underline;
+    }
+    .menuall:hover .menushka {
+        display: block;
+    }
+    .slogan {
+        padding-top: 5vh;
+    }
+}

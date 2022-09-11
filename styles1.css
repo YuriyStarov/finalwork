@@ -68,6 +68,9 @@ header {
     height: 100%; 
     display: flex;
 }
+#burger, #chees {
+    display: none;
+}
 .menushka {
     width: 14.2857%; 
     height: 40%; 
