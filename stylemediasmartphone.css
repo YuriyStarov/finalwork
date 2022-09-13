@@ -252,17 +252,57 @@
     --secondaryfontsize: 14px;
     --middlefontsize: 16px;
     }
+    main {
+        height: 696vh;
+    }
     #about {
         width: 94vw;
         padding: 8vh 3vw;
     }
-    .whiskey:hover {
-        background-size: 120% 100%;
+    #lable {
+        height: 38vh;
+    }
+    .whiskey {
+        height: 18vh;
     }
     .now {
         right: 37vw;
     }
 }
 @media (max-width: 420px) {
+    body {
+        --mainfontsize: 10px;
+        --secondaryfontsize: 12px;
+        --middlefontsize: 14px;
+    }
+    .menuall {
+        width: 20%;
+    }
+    #chees {
+        font-size: 18px;
+    }
+    .slogan {
+        font-size: 22px;
+    }
+    main {
+        height: 690vh;
+    }
+    #lable {
+        height: 32vh;
+    }
+    .whiskey {
+        height: 12vh;
+    }
+    .now {
+        right: 35vw;
+    }
+    .fotocheff {
+        width: 50%;
+    }
+    .textaboutcheff {
+        font-size: var(--mainfontsize);
+    }
+}
+@media (max-width: 350px) {
 
 }
