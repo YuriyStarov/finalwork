@@ -112,8 +112,8 @@
         flex-wrap: nowrap;
         height: 72vh;
     }
-    .val {
-        justify-content: space-around;
+    .crimpa {
+        margin-right: 12vw;
     }
     #Layer_11 {
         margin: 1.8vmax;
@@ -142,7 +142,16 @@
         width: 100%;
         height: 15vh;
         flex-direction: row;
+        justify-content: flex-start;
         padding: 0;
+    }
+    .dia_up {
+        width: 13%;
+        margin-right: 20vw;
+    }
+    .kroz {
+        width: 150%;
+        height: 150%;
     }
     #portfolio {
         height: 281.5vh;
@@ -238,5 +247,22 @@
     }
 }
 @media (max-width: 505px) {
+    body {
+    --mainfontsize: 12px;
+    --secondaryfontsize: 14px;
+    --middlefontsize: 16px;
+    }
+    #about {
+        width: 94vw;
+        padding: 8vh 3vw;
+    }
+    .whiskey:hover {
+        background-size: 120% 100%;
+    }
+    .now {
+        right: 37vw;
+    }
+}
+@media (max-width: 420px) {
 
 }
