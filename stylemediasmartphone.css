@@ -295,12 +295,22 @@
     }
     .now {
         right: 35vw;
+        height: 3.2vh;
+        padding-top: 0.8vh;
+    }
+    .pronow {
+        height: 3.2vh;
+        padding-top: 0.8vh;
     }
     .fotocheff {
         width: 50%;
     }
     .textaboutcheff {
         font-size: var(--mainfontsize);
+    }
+    .butcont {
+        height: 3.2vh;
+        padding-top: 0.8vh;
     }
 }
 @media (max-width: 350px) {
