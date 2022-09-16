@@ -52,7 +52,7 @@
         padding-top: 5vh;
     }
     main {
-        height: 702vh;
+        height: 715vh;
     }
     #about {
         flex-direction: column;
@@ -110,7 +110,10 @@
     #ouse {
         flex-direction: column;
         flex-wrap: nowrap;
-        height: 72vh;
+        height: 85vh;
+    }
+    .val {
+        height: 10vh;
     }
     .crimpa {
         margin-right: 12vw;
@@ -137,6 +140,7 @@
     }
     .grade {
         width: 100%;
+        height: 50vh;
     }
     .dia {
         width: 100%;
@@ -147,6 +151,7 @@
     }
     .dia_up {
         width: 13%;
+        min-width: 40px;
         margin-right: 20vw;
     }
     .kroz {
@@ -253,7 +258,7 @@
     --middlefontsize: 16px;
     }
     main {
-        height: 696vh;
+        height: 709vh;
     }
     #about {
         width: 94vw;
@@ -269,7 +274,7 @@
         right: 37vw;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 435px) {
     body {
         --mainfontsize: 10px;
         --secondaryfontsize: 12px;
@@ -285,7 +290,7 @@
         font-size: 22px;
     }
     main {
-        height: 690vh;
+        height: 703vh;
     }
     #lable {
         height: 32vh;
@@ -297,6 +302,9 @@
         right: 35vw;
         height: 3.2vh;
         padding-top: 0.8vh;
+    }
+    .crimpa {
+        margin-right: 8vw;
     }
     .pronow {
         height: 3.2vh;

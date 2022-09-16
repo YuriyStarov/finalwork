@@ -161,6 +161,7 @@
     }
     .dia_up {
         width: 50%;
+        min-width: 70px;
     }
     .aboutport {
         width: 10vw; 
