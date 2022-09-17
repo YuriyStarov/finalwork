@@ -120,6 +120,13 @@
     letter-spacing: 0.1em; 
     line-height: 100%;
 }
+.hreshka {
+    width: 14%;
+    background-color: #4d776d;
+    height: 2px;
+    border: none;
+    margin-left: 0;
+}
 .carttext {
     position: absolute; 
     width: 85%; 
