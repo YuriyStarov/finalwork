@@ -34,6 +34,9 @@
     }
 }
 @media (max-width: 993px) {
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
     html, body {
         --mainfontsize: 14px;
         --secondaryfontsize: 16px;

@@ -169,7 +169,7 @@ footer {
     position: fixed;
     height: 4vh;
     width: 4vh;
-    right: 4vh;
+    right: 2vh;
     border-radius: 15%;
     animation-duration: 5s;
     animation-timing-function: step-end;
