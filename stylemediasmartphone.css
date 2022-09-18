@@ -112,7 +112,7 @@
     }
     .now {
         width: 18vw;
-        right: 38vw;
+        right: 42vw;
         top: 10vh;
     }
     #ouse {
@@ -280,7 +280,7 @@
         padding-top: 17vh;
     }
     .now {
-        right: 37vw;
+        right: 43vw;
     }
 }
 @media (max-width: 435px) {
@@ -309,7 +309,7 @@
         padding-top: 14vh;
     }
     .now {
-        right: 35vw;
+        right: 41vw;
         height: 3.2vh;
         padding-top: 0.8vh;
     }
@@ -353,13 +353,13 @@
         column-count: 2;
         height: 21.5vh;
     }
-    #projects {
+    #nike {
+        height: 15vh;
+    }
+    .feattext {
         width: 88%;
         padding-left: 6vw;
         padding-right: 6vw;
-    }
-    #nike {
-        height: 15vh;
     }
     #lable {
         height: 23vh;
@@ -370,14 +370,9 @@
     }
     .now {
         top: 9vh;
-        right: 34vw;
+        right: 38vw;
         height: 3vh;
         width: 22vw;
-    }
-    #ourser {
-        width: 88%;
-        padding-left: 6vw;
-        padding-right: 6vw;
     }
     .crimpa {
         margin-right: 4vw;

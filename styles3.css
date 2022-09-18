@@ -1,23 +1,22 @@
-.featured {
-    width: 100%; 
-    height: 24vh; 
-    padding-top: 8vh; 
-    text-align: center; 
-    font-family: Source_Sans_Pro_Regular; 
-    overflow: hidden;
-}
 .featproj {
     width: 100%; 
     height: 8vh; 
     color: #424347; 
     font-size: var(--secondaryfontsize); 
     letter-spacing: 0.15em;
+    padding-top: 8vh;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    font-family: Source_Sans_Pro_Regular;
 }
 .feattext {
     width: 100%; 
     height: 16vh; 
     color: #818183; 
     font-size: var(--mainfontsize);
+    font-family: Source_Sans_Pro_Regular;
+    text-align: center;
 }
 #lable {
     width: 100%; 
