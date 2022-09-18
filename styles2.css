@@ -15,14 +15,15 @@ main {
     background-color: #f3f3f3;
 }
 .details {
-    width: 100%; 
-    height: 8vh; 
-    color: #454545; 
+    margin: 0;
+    font-weight: normal;
+    height: 8vh;
+    width: 100%;
+    color: #454545;
+    font-family: Source_Sans_Pro_Regular; 
     font-size: var(--secondaryfontsize); 
     text-align: center; 
-    font-family: Source_Sans_Pro_Regular; 
     letter-spacing: 0.15em; 
-    overflow: hidden;
 }
 .detatext {
     width: 100%; 
