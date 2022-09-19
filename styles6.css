@@ -187,7 +187,7 @@ footer {
 }
 #scrollingup {
     animation-name: scrollup;
-    bottom: 5vh;
+    bottom: 1vh;
 }
 .scrollinglist:hover {
     opacity: 0.6;
