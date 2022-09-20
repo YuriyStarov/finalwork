@@ -8,7 +8,7 @@ html, body {
     animation-name: ttt; 
     animation-duration: 5s; 
     animation-timing-function: step-end;
-    cursor: url(./img/cursor.png), default; 
+    cursor: url(./img/cursor1.png), default; 
     --mainfontsize: 16px;
     --secondaryfontsize: 18px;
     --middlefontsize: 20px;

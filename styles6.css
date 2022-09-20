@@ -180,7 +180,7 @@ footer {
     animation-timing-function: step-end;
     border: 1px #ffffff ridge;
     opacity: 0.3;
-    cursor: url(./img/cursor.png), default; 
+    cursor: url(./img/cursor1.png), default; 
 }
 #scrollingdown {
     animation-name: scrolldown;
