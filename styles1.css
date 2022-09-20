@@ -3,12 +3,12 @@ html, body {
     height: 100vh; 
     margin: 0; 
     font-size: 0;
-    cursor: url(./img/cursor.png), default; 
     overflow-x: hidden; 
     scroll-behavior: smooth; 
     animation-name: ttt; 
     animation-duration: 5s; 
     animation-timing-function: step-end;
+    cursor: url(./img/cursor.png), default; 
     --mainfontsize: 16px;
     --secondaryfontsize: 18px;
     --middlefontsize: 20px;
@@ -47,7 +47,7 @@ header {
     width: 88%; 
     height: 88%; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.411) 0%, rgba(0, 0, 0, 0.411) 100%), url(./img/headerfon.jpg); 
-    background-size: 100% 100%; 
+    background-size: max(1200px, 100vw) max(650px, 100vh);
     color: #fbf4ea; 
     padding: 6vh 6vw;
 }
